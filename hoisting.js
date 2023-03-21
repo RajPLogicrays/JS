@@ -1,5 +1,5 @@
 // Function declaration are scanned and made available.
-//  Variables declaration are scanned and made undefined.
+// Variables declaration are scanned and made undefined.
 
 getUser();
 

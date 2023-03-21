@@ -44,13 +44,13 @@ const ages = [33, 12, 20, 34, 36, 15, 25, 4, 16, 88, 99, 64, 32];
 //     if(age >= 20){
 //         console.log(age);
 //     }
-// })
+// });
 
 // ages.filter((age) => {
 //     if (age >= 20) {
 //         console.log(age);
 //     }
-// })
+// });
 
 // const age = ages.filter((age) => (age > 30));
 // console.log(age);
@@ -100,5 +100,5 @@ const ages = [33, 12, 20, 34, 36, 15, 25, 4, 16, 88, 99, 64, 32];
 // }, 0)
 // console.log(totalAge);
 
-const totalAge = ages.reduce((totle,age)=> totle+age , 0);
+const totalAge = ages.reduce((totle, age) => totle + age, 0);
 console.log(totalAge);

@@ -12,4 +12,4 @@ const [one, two, three, ...rest] = users;
 
 console.log(one);
 console.log(two);
-console.log(rest);
+console.log(rest[0]); // return 4

@@ -1,4 +1,3 @@
-
 // Async JS Programming
 // callback, Promises, Async & Await
 
@@ -12,7 +11,7 @@ function getUset() {
   setTimeout(() => {
     let output = "";
     user.forEach((use) => {
-      output += `<li>${use.name}</li>`;
+      output += `${use.name}`;
     });
     console.log(output);
   }, 1000);
